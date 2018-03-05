@@ -1,0 +1,78 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.header {
+  height: 200px;
+  position: relative;
+  top: -60px;
+  width: 100%;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg") no-repeat center bottom;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: top 60px left 0px;
+}
+
+#header-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 75px;
+  width: 100%;
+}
+
+.container {
+  height: 1000px;
+  position: relative;
+  top: 85px;
+}
+
+#brushes h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+}
+
+#color-blue {
+  color: blue;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+}
